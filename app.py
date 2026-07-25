@@ -5,7 +5,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-test=pickle.load(open('test1.pkl','rb'))
+test = pickle.load(open('test1.pkl','rb'))
 
 
 @app.route('/')
